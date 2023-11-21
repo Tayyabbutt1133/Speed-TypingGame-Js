@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin: 0;
+    background-color: rgb(37, 37, 67);
+}
+
+body, .quote-input
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container
+{
+    background-color: rgb(220, 220, 62);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.timer
+{
+    position: absolute;
+    top:3rem;
+    font-size: 3rem;
+    color: yellow;
+    font-weight: bold;
+}
+.quote-display
+{
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+    font-size: 24px;
+
+}
+.quote-input{
+    background-color: transparent;
+    border: 2px solid rgb(123, 123, 3);
+    outline: none;
+    margin: auto;
+    resize: none;
+    height: 8rem;
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size:20px;
+}
+.quote-input:focus
+{
+    border-color: black;
+}
+.correct
+{
+    color: green;
+}
+.incorrect
+{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
